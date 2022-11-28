@@ -1,0 +1,8 @@
+  - hosts: samplenode1
+    gather_facts: false
+    become: yes
+    tasks:
+      - name: Install Docker
+        yum:
+          name: docker
+          state: latest
