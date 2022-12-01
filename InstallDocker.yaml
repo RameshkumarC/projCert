@@ -1,4 +1,4 @@
-  - hosts: samplenode1
+  - hosts: all
     gather_facts: false
     become: yes
     tasks:
