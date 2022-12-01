@@ -1,4 +1,4 @@
-  - hosts: all
+  - hosts: testnodes
     gather_facts: false
     become: yes
     tasks:
